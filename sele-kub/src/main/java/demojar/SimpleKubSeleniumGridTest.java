@@ -45,7 +45,7 @@ public class SimpleKubSeleniumGridTest {
 		dcp.setCapability("idleTimeout", 150);
 		//driver = new RemoteWebDriver(new URL("http://35.193.7.170:4444/wd/hub"),dcp);
 		//System.out.println(pro.getProperty("selenium.url"));
-		driver = new RemoteWebDriver(new URL("http://35.185.83.18:4444/wd/hub"),dcp);
+		driver = new RemoteWebDriver(new URL("http://104.199.94.18:4444/wd/hub"),dcp);
 		//System.setProperty("webdriver.chrome.driver","D:\\driver\\chromedriver_win32\\chromedriver.exe");
 		/*System.setProperty("webdriver.chrome.driver",pro.getProperty("chrome.driver").toString());
 		//Open browser instance
